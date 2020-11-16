@@ -1,0 +1,13 @@
+D:\Files and Folder\Documents\School\Fall 2020\CIS 360\VS Labs\Lab 8\Implementation 1\bin\Debug\netcoreapp3.1\Implementation 1.exe
+D:\Files and Folder\Documents\School\Fall 2020\CIS 360\VS Labs\Lab 8\Implementation 1\bin\Debug\netcoreapp3.1\Implementation 1.deps.json
+D:\Files and Folder\Documents\School\Fall 2020\CIS 360\VS Labs\Lab 8\Implementation 1\bin\Debug\netcoreapp3.1\Implementation 1.runtimeconfig.json
+D:\Files and Folder\Documents\School\Fall 2020\CIS 360\VS Labs\Lab 8\Implementation 1\bin\Debug\netcoreapp3.1\Implementation 1.runtimeconfig.dev.json
+D:\Files and Folder\Documents\School\Fall 2020\CIS 360\VS Labs\Lab 8\Implementation 1\bin\Debug\netcoreapp3.1\Implementation 1.dll
+D:\Files and Folder\Documents\School\Fall 2020\CIS 360\VS Labs\Lab 8\Implementation 1\bin\Debug\netcoreapp3.1\Implementation 1.pdb
+D:\Files and Folder\Documents\School\Fall 2020\CIS 360\VS Labs\Lab 8\Implementation 1\obj\Debug\netcoreapp3.1\Implementation 1.csprojAssemblyReference.cache
+D:\Files and Folder\Documents\School\Fall 2020\CIS 360\VS Labs\Lab 8\Implementation 1\obj\Debug\netcoreapp3.1\Implementation 1.AssemblyInfoInputs.cache
+D:\Files and Folder\Documents\School\Fall 2020\CIS 360\VS Labs\Lab 8\Implementation 1\obj\Debug\netcoreapp3.1\Implementation 1.AssemblyInfo.cs
+D:\Files and Folder\Documents\School\Fall 2020\CIS 360\VS Labs\Lab 8\Implementation 1\obj\Debug\netcoreapp3.1\Implementation 1.csproj.CoreCompileInputs.cache
+D:\Files and Folder\Documents\School\Fall 2020\CIS 360\VS Labs\Lab 8\Implementation 1\obj\Debug\netcoreapp3.1\Implementation 1.dll
+D:\Files and Folder\Documents\School\Fall 2020\CIS 360\VS Labs\Lab 8\Implementation 1\obj\Debug\netcoreapp3.1\Implementation 1.pdb
+D:\Files and Folder\Documents\School\Fall 2020\CIS 360\VS Labs\Lab 8\Implementation 1\obj\Debug\netcoreapp3.1\Implementation 1.genruntimeconfig.cache

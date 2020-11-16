@@ -6,10 +6,10 @@ namespace Implementation_1
     class Program
     {
         public static int INF = 999999;     //Placeholder for infinity
-        public static int V = 6;            //Number of vertices
+        public static int V = 7;            //Number of vertices
         static void Main(string[] args)
         {
-            //Directed graph A
+            /*Directed graph A
             int[,] WA = { {  0,   5, INF,  11, INF, INF },
                           {  7,   0,   1, INF, INF, INF },
                           {INF, INF,   0, INF,   1, INF },
@@ -25,8 +25,20 @@ namespace Implementation_1
                           {  1,   5, INF,   0, INF,   4 },
                           {  3,   7,   4, INF,   0,   4 },
                           {INF, INF,  13,   4,   4,   0 } };
-            int[,] DB = WB;
+            int[,] DB = WB;*/
 
+            //Undirected graph C
+            int[,] WC = { {  0,   4, INF, INF, INF,  10, INF },
+                          {  3,   0, INF,  18, INF, INF, INF },
+                          {INF,   6,   0, INF, INF, INF, INF },
+                          {INF,   5,  15,   0,   2,  19,   5 },
+                          {INF, INF,  12,   1,   0, INF, INF },
+                          {INF, INF, INF, INF, INF,   0,  10 },
+                          {INF, INF, INF,   8, INF, INF,   0 } };
+            int[,] DC = WC;
+
+
+            /*
             int[,] PA = floyd(WA);
             printPath(PA, 0, 4);
             Console.WriteLine();
@@ -67,6 +79,40 @@ namespace Implementation_1
                     {
                         Console.Write(DB[i, j] + " ");
                     }
+                }
+
+                Console.WriteLine();
+            }*/
+
+            int[,] PC = floyd(WC);
+            Console.WriteLine();
+
+            //Print DC to check values
+            for (int i = 0; i < V; ++i)
+            {
+                for (int j = 0; j < V; ++j)
+                {
+                    if (DC[i, j] == INF)
+                    {
+                        Console.Write("INF ");
+                    }
+                    else
+                    {
+                        Console.Write(DC[i, j] + " ");
+                    }
+                }
+
+                Console.WriteLine();
+            }
+
+            Console.WriteLine();
+
+            //Print all values in PC
+            for (int i = 0; i < V; ++i)
+            {
+                for (int j = 0; j < V; ++j)
+                {
+                    Console.Write(PC[i, j] + " ");
                 }
 
                 Console.WriteLine();
